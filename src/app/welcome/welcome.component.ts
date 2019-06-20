@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {Project} from '../models/project.model';
 import { ProjectService } from '../project.service'; 
 import { Router } from '@angular/router';
+import { FirebaseListObservable } from 'angularfire2/database';
+
 
 @Component({
   selector: 'app-welcome',
@@ -10,7 +12,7 @@ import { Router } from '@angular/router';
   providers: [ProjectService]
 })
 export class WelcomeComponent implements OnInit {
-  projects: Project[];
+  projects: FirebaseListObservable<any[]>;
   constructor(private router: Router, private projectService: ProjectService) { }
 
   ngOnInit() {

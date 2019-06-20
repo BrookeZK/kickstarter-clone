@@ -1,0 +1,34 @@
+{   "projects": [{
+    "title": "LUMI",
+    "author": "ROLI",
+    "img": "https://ksr-static.imgix.net/z83cmcsk-lumi.jpg?ixlib=rb-2.0.0&auto=compress&w=1000&fit=min&s=79ceb61aaec3d5bf1cd2aabe8a15be69",
+    "description": "A bright new way to learn and play music.",
+    "genre": "music",
+    "featured": true,
+    "recommended": false
+    }, {
+    "title": "An Invite to Eternity: Tales of Nature Disrupted",
+    "author": "Calque press",
+    "img": "https://ksr-ugc.imgix.net/assets/025/183/820/305239684359fc35c3aaaf6633c20c09_original.png?ixlib=rb-2.0.0&crop=faces&w=1024&h=576&fit=crop&v=1558179829&auto=format&frame=1&q=92&s=324117904286ff7b1649ecf572d7c785",
+    "description": "Anthology about ecological uncertainties by international speculative fiction authors.",
+    "genre": "books",
+    "featured": false,
+    "recommended": true
+    }, {
+    "title": "New York Drawings",
+    "author": "Lucinda Rogers",
+    "img": "https://ksr-ugc.imgix.net/assets/024/483/294/fd0fa56d50a615c73b1d6428806db8b4_original.jpg?ixlib=rb-2.0.0&crop=faces&w=352&h=198&fit=crop&v=1553111635&auto=format&frame=1&q=92&s=b664442726d31d7ae4b7b61d739807d9",
+    "description": "A book revealing NYC in 90 drawings over 30 years through the eyes of artist Lucinda Rogers.",
+    "genre": "art",
+    "featured": false,
+    "recommended": true
+    }, {
+    "title": "TWEEDL",
+    "author": "TWEEDL",
+    "img": "https://ksr-ugc.imgix.net/assets/025/277/888/80f1f0c7506133ad445829a6268b7093_original.jpg?ixlib=rb-2.0.0&crop=faces&w=352&h=198&fit=crop&v=1558954877&auto=format&frame=1&q=92&s=7424d6e87bfa2bda41e44f62f0f109ae",
+    "description": "Where the people select the next hot music.",
+    "genre": "music",
+    "featured": false,
+    "recommended": true
+    }]
+}

@@ -1,3 +1,5 @@
-<p>
-  recommended-projects works!
-</p>
+<h2>Recommended Projects</h2>
+
+<div *ngFor="let project of projects | async" (click)="goToDetailPage(project)">
+    <h3><em>{{project.title}}</em> by {{project.author}}</h3>
+</div>
