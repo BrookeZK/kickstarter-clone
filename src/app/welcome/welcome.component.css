@@ -1,0 +1,20 @@
+.navDiv {
+    height: 150px;
+}
+.featuredDiv {
+    height: 60vh;
+    display: flex;
+    /* border: 5px solid black; */
+    justify-content: space-between;
+    margin: 50px;
+}
+
+#left {
+    /* border-right: 1px solid lightgrey; */
+    width: 40%;
+}
+
+#right {
+    width: 40%;
+}
+
